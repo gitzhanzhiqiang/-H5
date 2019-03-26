@@ -1,0 +1,71 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li,
+dl,
+ol,
+dd,
+dt {
+    list-style: none;
+}
+
+img {
+    border: 0;
+}
+
+//重置mint-ui样式
+.mint-msgbox-wrapper {
+    .mint-msgbox {
+        .mint-msgbox-header {
+            .mint-msgbox-title {
+                font-size: 30px;
+            }
+        }
+        .mint-msgbox-content {
+            font-size: 30px;
+        }
+        .mint-msgbox-btns {
+            font-size: 40px;
+            .mint-msgbox-btn {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+.mint-toast {
+    .mint-toast-text {
+        font-size: 30px;
+    }
+}
+
+@import 'swiper/dist/css/swiper.min.css';
